@@ -6,7 +6,7 @@ SECRET_KEY = 'django-insecure-quiz-dev-key-change-in-production'
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['lilyyy000.pythonanywhere.com', 'localhost', '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
