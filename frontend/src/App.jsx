@@ -86,7 +86,7 @@ function App() {
               <li key={task.id} className={task.is_completed ? 'completed' : ''}>
                 <span>{task.title}</span>
                 <span className="status">
-                  {task.is_completed ? 'Done' : 'Pending'}
+                  {task.is_completed ? 'Completed' : 'Pending'}
                 </span>
               </li>
             ))}
